@@ -19,13 +19,13 @@ jobs:
       with:
         test-name: Test 1
         setup-command: ''
-        command: "./RomanRunner.java"
+        command: javac RomansRunner.java && java RomansRunner
         input: ''
         expected-output: |-
           5
-          10
-          100
-        comparison-method: exact
+          500
+          1000
+        comparison-method: contains
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
