@@ -8,7 +8,7 @@ public class RomansRunner
 	{
 		Romans w = new Romans();
 		System.out.println( w.getNumber( "V" ) );
-		System.out.println( w.getNumber( "D" ) );
-		System.out.println( w.getNumber( "M" ) );
+		System.out.println( w.getNumber( "X" ) );
+		System.out.println( w.getNumber( "C" ) );
 	}
 }
